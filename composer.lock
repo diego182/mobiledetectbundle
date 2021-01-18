@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c5052061738c093a2fe1c0dd4cbbd88",
+    "content-hash": "15075dc9f7c832a8e18d3ddac4c88e7d",
     "packages": [
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -61,9 +61,7 @@
                 "source": "https://github.com/serbanghita/Mobile-Detect/tree/2.8.34"
             },
             "time": "2019-09-18T18:44:20+00:00"
-        }
-    ],
-    "packages-dev": [
+        },
         {
             "name": "psr/container",
             "version": "1.0.0",
@@ -1497,6 +1495,7 @@
             "time": "2020-12-16T17:02:19+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
