@@ -15,8 +15,7 @@
     "require-dev": {
         "symfony/dependency-injection": "^5.2",
         "symfony/config": "^5.2",
-        "symfony/http-kernel": "^5.2",
-        "symfony/yaml": "^5.2"
+        "symfony/http-kernel": "^5.2"
     },
     "autoload": {
         "psr-4": {
@@ -27,8 +26,5 @@
         "psr-4": {
             "test\\diego182\\MobileDetectBundle\\": ""
         }
-    },
-    "extra": {
-        "branch-version": "1.0"
     }
 }
