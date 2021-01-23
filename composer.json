@@ -15,6 +15,9 @@
         "symfony/config": "^5.2",
         "symfony/http-kernel": "^5.2"
     },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2"
+    },
     "autoload": {
         "psr-4": {
             "diego182\\MobileDetectBundle\\": ""
@@ -22,7 +25,10 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "test\\diego182\\MobileDetectBundle\\": ""
+            "diego182\\MobileDetectBundle\\Test\\": "Test/"
         }
+    },
+    "scripts": {
+        "tests": "simple-phpunit --do-not-cache-result"
     }
 }
