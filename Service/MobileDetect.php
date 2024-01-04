@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace diego182\MobileDetectBundle\Service;
 
-use Mobile_Detect;
 
-final class MobileDetect extends Mobile_Detect
+use Detection\MobileDetect as BaseMobileDetect;
+
+final class MobileDetect extends BaseMobileDetect
 {
 
 }

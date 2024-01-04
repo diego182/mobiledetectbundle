@@ -17,7 +17,7 @@ final class TestKernel extends Kernel
         ];
     }
 
-    public function registerContainerConfiguration(LoaderInterface $loader)
+    public function registerContainerConfiguration(LoaderInterface $loader): void
     {
 
     }
